@@ -1,1 +1,1 @@
-## This repo is created as an introductory phase of keras
+## This repo is created as an introductory phase for keras
