@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
-from typing import Dict, Tuple, List
+from typing import Dict, Tuple, List, Sequential
 
 def load_fashion_mnist_data()->Tuple[pd.DataFrame,pd.DataFrame,pd.DataFrame,pd.DataFrame,pd.DataFrame,pd.DataFrame]:
     """
