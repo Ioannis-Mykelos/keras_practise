@@ -67,7 +67,7 @@ def fit_model(
     ---------------------------------------------
     -model       : a Sequential keras model
     """
-    history = model_we_have.fit(x_train_df, y_train_df, epochs=50, validation_data=(x_valid_df, y_valid_df))
+    history = model_we_have.fit(x_train_df, y_train_df, epochs=30, validation_data=(x_valid_df, y_valid_df))
     print("Model parameters -->\n", history.params)
     print("")
     print("Model list of epochs it went through -->\n", history.epoch)
